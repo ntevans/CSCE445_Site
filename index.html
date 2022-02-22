@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nicholas Evans</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/N-icon.png"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/loadingScreen.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/conbar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87adbb40e6.js" crossorigin="anonymous"></script>
+    <script src="js/jQuery_v3.6.0.js"></script>
+  </head>
+  <body>
+
+    <div id="loadingScreen">
+      <div id="load_cw"></div>
+      <div id="load_ccw"></div>
+      <div id="logo_color" class="load_logo"></div>
+      <img src="img/logo_trace.png" id="logo_trace" class="load_logo" alt="">
+      
+    </div>
+    
+    <div id="indexPage" style="display:none;">
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <ul class="navbar-nav">
+          <!-- Navbar: Logo -->
+          <li class="nav-logo">
+            <a href="#" class="nav-link">
+              <img src="img/N-logo.png" alt="">
+              <span class="nav-logo-text">avigation</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Navbar: About -->
+            <a href="#about" class="nav-link gray" id="nav-1">
+              <svg class="svg-sec" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve"> <path class="svg-pri" d="M121.4,291.5C152.7,323.8,196.5,344,245,344c94.8,0,172-77.2,172-172S339.8,0,245,0S73,77.2,73,172 c0,45.2,17.6,86.4,46.2,117.1C119.8,290.1,120.6,290.8,121.4,291.5z M245,324.2c-37.4,0-71.8-13.6-98.3-36.1 c44.6-14.8,61.1-32.8,67.2-44.8c8.5,3.7,18,5.7,28.5,5.8c0.2,0,0.5,0,0.7,0c0.1,0,0.7,0,0.9,0s0.5,0,0.7,0 c11.4-0.2,21.7-2.5,30.6-6.8c5.7,12,21.9,30.6,67.8,45.8C316.7,310.6,282.4,324.2,245,324.2z M189.4,140.2c0-0.2,0-0.4,0-0.6 c2.4-52.1,40.8-56.2,52.6-56.2c0.5,0,0.9,0,1.2,0s0.5,0,0.8,0s0.6,0,1.2,0c11.7,0,50.2,4.1,52.6,56.2c0,0.2,0,0.4,0,0.6 c0.1,0.5,5,48.7-17.5,74c-8.9,10-20.8,15-36.3,15.1c-0.1,0-0.3,0-0.3,0l0,0c-0.1,0-0.2,0-0.3,0c-15.6-0.2-27.4-5.1-36.3-15.1 C184.5,189.1,189.3,140.7,189.4,140.2z M245,19.8c83.9,0,152.2,68.3,152.2,152.2c0,38.4-14.4,73.6-37.9,100.4 c-64.6-18.8-67.1-41.6-67.1-41.9c0,0.4,0,0.5,0,0.5h-0.7c1.2-1.2,2.4-2.4,3.6-3.7c27.5-30.9,22.9-83.8,22.4-89 c-2.7-55.2-40.6-74.8-72.3-74.8c-0.6,0-1.2,0-1.6,0c-0.4,0-0.9,0-1.6,0c-31.7,0-69.7,19.6-72.3,74.8c-0.5,5.1-5,58,22.4,89 c1.6,1.8,3.3,3.5,5,5.1c-2.1,5.8-12.7,24.2-66.4,39.9c-23.6-26.8-37.9-61.9-37.9-100.3C92.8,88.1,161.1,19.8,245,19.8z"/> <path d="M119.4,420.5h251.1c5.5,0,9.9-4.4,9.9-9.9s-4.4-9.9-9.9-9.9H119.4c-5.5,0-9.9,4.4-9.9,9.9 C109.5,416,114,420.5,119.4,420.5z"/> <path  d="M336.3,480.1c0-5.5-4.4-9.9-9.9-9.9H163.6c-5.5,0-9.9,4.4-9.9,9.9s4.4,9.9,9.9,9.9h162.9 C331.9,490,336.3,485.5,336.3,480.1z"/></svg> 
+              <span class="link-text">About</span>
+            </a>
+          </li>
+          <!-- Navbar: Skills -->
+          <li class="nav-item">
+            <a href="#skills" class="nav-link gray" id="nav-2">
+              <svg class="svg-sec" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 502 502" style="enable-background:new 0 0 502 502;" xml:space="preserve"><path class="svg-pri" d="M103.656,466.086c0,19.803,15,35.914,33.438,35.914h227.813c18.438,0,33.438-16.111,33.438-35.914V35.914 c0-19.803-15-35.914-33.438-35.914H137.094c-18.438,0-33.438,16.111-33.438,35.914V466.086z M123.656,78.047h254.688v302.37 H123.656V78.047z M123.656,35.914c0-8.775,6.028-15.914,13.438-15.914h227.813c7.409,0,13.438,7.139,13.438,15.914v22.133H123.656 V35.914z M378.344,466.086c0,8.775-6.028,15.914-13.438,15.914H137.094c-7.41,0-13.438-7.139-13.438-15.914v-65.669h254.688 V466.086z"/> <path d="M251,468.83c15.517,0,28.14-12.623,28.14-28.14s-12.623-28.14-28.14-28.14c-15.516,0-28.14,12.623-28.14,28.14 S235.484,468.83,251,468.83z M251,432.551c4.488,0,8.14,3.651,8.14,8.14s-3.651,8.14-8.14,8.14s-8.14-3.651-8.14-8.14 S246.512,432.551,251,432.551z"/> <path d="M260.329,30.061h-18.658c-5.523,0-10,4.478-10,10s4.477,10,10,10h18.658c5.522,0,10-4.478,10-10 S265.852,30.061,260.329,30.061z"/> <path d="M152.527,165.85c-5.523,0-10,4.478-10,10v176.215c0,5.522,4.477,10,10,10s10-4.478,10-10V175.85 C162.527,170.327,158.05,165.85,152.527,165.85z"/> <path d="M152.527,98.473c-5.523,0-10,4.478-10,10v26.951c0,5.522,4.477,10,10,10s10-4.478,10-10v-26.951 C162.527,102.95,158.05,98.473,152.527,98.473z"/></svg>
+              </svg>
+              <span class="link-text">Media</span>
+            </a>
+          </li>
+          <!-- Navbar: Projects -->
+          <li class="nav-item">
+            <a href="#projects" class="nav-link gray" id="nav-3">
+              <svg class="svg-sec" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489.989 489.989" style="enable-background:new 0 0 489.989 489.989;" xml:space="preserve"><path class="svg-pri" d="M489.989,34.453H0v306.243h213.641l-6.264,68.905H176.09c-12.665,0-22.968,10.303-22.968,22.968 s10.303,22.968,22.968,22.968h137.809c12.665,0,22.968-10.303,22.968-22.968c0-12.665-10.303-22.968-22.968-22.968h-31.287 l-6.264-68.905h213.641V34.453z M313.899,424.913c4.221,0,7.656,3.436,7.656,7.656c0,4.221-3.436,7.656-7.656,7.656H176.09 c-4.221,0-7.656-3.435-7.656-7.656c0-4.22,3.436-7.656,7.656-7.656H313.899z M222.755,409.6l6.264-68.905h31.95l6.265,68.905 H222.755z M474.677,325.384H15.312V49.764h459.365V325.384z"/> <rect x="38.28" y="294.759" width="99.529" height="15.312"/> <rect x="153.122" y="294.759" width="15.312" height="15.312"/> <rect x="183.746" y="294.759" width="15.312" height="15.312"/> <rect x="214.37" y="294.759" width="15.312" height="15.312"/> <rect x="279.45" y="100.302" transform="matrix(0.7071 0.7071 -0.7071 0.7071 208.6078 -151.4375)" width="15.31" height="151.582"/> <rect x="317.728" y="177.408" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 414.7066 569.9017)" width="15.311" height="43.309"/> <rect x="388.547" y="71.401" transform="matrix(0.7071 0.7071 -0.7071 0.7071 206.7273 -242.5955)" width="15.31" height="113.686"/> <rect x="229.682" y="65.078" width="30.624" height="15.312"/></svg> 
+              <span class="link-text">Projects</span>
+            </a>
+          </li>
+          <!-- Navbar: Home -->
+          <li class="nav-item">
+            <a class="nav-link gray invisible" id="nav-5">
+              <svg class="svg-sec" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 502 502" style="enable-background:new 0 0 502 502;" xml:space="preserve"><path class="svg-pri" d="M455.058,199.915L258.071,2.929c-3.905-3.905-10.237-3.905-14.143,0L46.943,199.915c-2.86,2.86-3.715,7.161-2.167,10.898 s5.194,6.173,9.239,6.173h22.715V492c0,5.523,4.477,10,10,10h119.564h89.413h119.564c5.523,0,10-4.477,10-10V216.987h22.715 c4.044,0,7.691-2.437,9.239-6.173S457.918,202.776,455.058,199.915z M251,24.142l172.844,172.844h-8.573H86.729h-8.573L251,24.142 z M216.294,482V356.582h69.413V482H216.294z M405.271,482h-99.564V346.582c0-5.523-4.477-10-10-10h-89.413 c-5.523,0-10,4.477-10,10V482H96.729V216.987h308.542V482z"/><path d="M125.198,254.693h196.501c5.523,0,10-4.477,10-10s-4.477-10-10-10H125.198c-5.523,0-10,4.477-10,10 S119.675,254.693,125.198,254.693z"/><path d="M358.088,254.693h18.714c5.523,0,10-4.477,10-10s-4.477-10-10-10h-18.714c-5.523,0-10,4.477-10,10 S352.565,254.693,358.088,254.693z"/><path d="M235.405,396.885c-5.523,0-10,4.477-10,10v15.595c0,5.523,4.477,10,10,10s10-4.477,10-10v-15.595 C245.405,401.362,240.928,396.885,235.405,396.885z"/></svg>
+              <span class="link-text" style="white-space: nowrap;">Home</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+      <main>
+        <!-- Home -->
+        <div id="home">
+          <div class="intro">
+            <h1>Nicholas Evans</h1>
+            <h2>Personal Website for CSCE 445</h2>
+          </div>
+          <div id="learn-more" class="visible">
+            <a href="#about" id="learn-more-button">
+              <span>Learn More</span>
+              <svg class="svg-sec" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path class="svg-pri" d="M413.485,311.177c0,0,0,0-0.001-0.001c-8.177-8.178-19.06-12.682-30.646-12.682s-22.469,4.504-30.646,12.682 l-52.852,52.852V43.339C299.341,19.443,279.898,0,256.001,0s-43.341,19.443-43.34,43.339v320.687l-52.852-52.852 c-16.897-16.896-44.392-16.898-61.292-0.001c-8.186,8.187-12.694,19.07-12.694,30.648c0,11.577,4.508,22.461,12.694,30.646 l126.837,126.837c8.185,8.187,19.068,12.696,30.648,12.696s22.463-4.509,30.647-12.695l126.837-126.836 c8.186-8.187,12.694-19.069,12.694-30.647C426.178,330.245,421.67,319.362,413.485,311.177z M399.061,358.043L272.222,484.88 c-4.332,4.334-10.092,6.72-16.222,6.72c-6.13,0-11.89-2.387-16.223-6.721L112.939,358.042c-4.333-4.333-6.719-10.093-6.719-16.221 c0-6.129,2.387-11.89,6.719-16.222c4.472-4.472,10.348-6.708,16.223-6.708c5.875,0,11.75,2.236,16.222,6.708l70.264,70.263 c2.916,2.917,7.304,3.789,11.114,2.21c3.81-1.578,6.296-5.296,6.296-9.422V43.339c0-12.649,10.292-22.941,22.942-22.941 s22.942,10.292,22.942,22.941v345.311c0,4.126,2.484,7.844,6.296,9.422c3.809,1.579,8.197,0.708,11.114-2.21l70.264-70.263 c4.324-4.325,10.085-6.707,16.222-6.707c6.137,0,11.898,2.382,16.222,6.706c0.001,0.001,0.001,0.001,0.001,0.001 c4.333,4.333,6.719,10.093,6.719,16.222C405.781,347.949,403.394,353.71,399.061,358.043z"/><path d="M341.26,387.524c-3.984-3.982-10.442-3.982-14.425,0l-2.023,2.023c-3.983,3.984-3.983,10.442,0,14.425 c1.991,1.991,4.602,2.987,7.212,2.987c2.61,0,5.221-0.996,7.213-2.987l2.023-2.022 C345.243,397.965,345.243,391.507,341.26,387.524z"/><path d="M319.488,409.293c-3.983-3.982-10.441-3.982-14.424,0l-53.274,53.276c-3.984,3.984-3.983,10.442,0,14.425 c1.992,1.991,4.602,2.987,7.212,2.987s5.221-0.995,7.212-2.987l53.275-53.276C323.472,419.734,323.471,413.276,319.488,409.293z"/></svg>
+            </a>
+              
+          </div>
+          <div id="cover" class="invisible"></div>
+          <div id="particles-js"></div>
+        </div>
+
+
+        <!-- About -->
+        <div id="about">
+          <div class="container">
+            <div id="about-txt">
+              <h2><span>WHY I'M TAKING CSCE 445</span></h2>
+              <p>This class caught my attention because of the day and age we're living in. In the past, I remember the Nintendo DS and iTouch being the most incredible things just because they were touch screens. Now, technology is rapidly advancing and now with situations like the Metaverse creeping over the horizon, the idea of learning more about media and how we as humans harness such a power is incredibly interesting. Also not to mention, this information will be incredibly valuable as a lot of the things I want to do in my career will involve humans interacting with my product in some form of media.</p>
+            </div>
+            <div id="about-img">
+              <div class="img-container">
+                <img src="img/about/veryAttractivePerson-filter.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Media -->
+        <div id="skills">
+          <div class="container">
+            <div id="skill-title">
+              <h2><span>MEDIA</span></h2>
+            </div>
+            <div id="skill-img">
+              <img src="img/MEDIA.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects">
+          <div class="container">
+            <div id="projects-title">
+              <h2><span>PROJECTS</span></h2>  
+            </div>
+            
+          </div>
+        </div>
+    
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+      </main>
+    </div>
+
+    <script>
+      var myVar;
+      var scrollPercent = 0;
+      myFunction();
+
+      function myFunction(){
+        myVar = setTimeout(showPage, 4500); // 4500 when on, 0 when off
+      }
+
+      function showPage(){
+        document.getElementById("loadingScreen").style.display = "none";
+        document.getElementById("indexPage").style.display = "block";
+        window.dispatchEvent(new Event('resize'));
+      }
+
+      $(window).bind('scroll', function() {
+
+        var s = $(window).scrollTop(),
+            d = $(document).height(),
+            c = $(window).height();
+
+        var scrollPercent = (s / (d - c)) * 100;
+
+        if (scrollPercent > 15) {
+          $('#cover').addClass('visible');
+          $('#cover').removeClass('invisible');
+          $('#nav-5').addClass('visible');
+          $('#nav-5').removeClass('invisible');
+          $('#nav-5').attr("href", "#home");
+          $('#learn-more-button').addClass('invisible');
+          $('#learn-more-button').removeClass('visible');
+          $('#learn-more-button').css("pointer-events", "none");
+        }
+        else {
+          $('#cover').removeClass('visible');
+          $('#cover').addClass('invisible');
+          $('#nav-5').removeClass('visible');
+          $('#nav-5').addClass('invisible');
+          $('#nav-5').attr("href", "");
+          $('#learn-more-button').removeClass('invisible');
+          $('#learn-more-button').addClass('visible');
+          $('#learn-more-button').css("pointer-events", "all");
+        }
+
+        if (scrollPercent > 15 && scrollPercent < 34) {  
+          $('#nav-1').removeClass('gray');  }
+        else {  $('#nav-1').addClass('gray');  }
+
+        if (scrollPercent > 34 && scrollPercent < 55) {  
+          $('#nav-2').removeClass('gray');  }
+        else {  $('#nav-2').addClass('gray');  }
+
+        if (scrollPercent > 55 && scrollPercent < 92) {  
+          $('#nav-3').removeClass('gray');  }
+        else {  $('#nav-3').addClass('gray');  }
+
+        if (scrollPercent > 92) {  
+          $('#nav-4').removeClass('gray');
+        }
+        else {
+          $('#nav-4').addClass('gray');
+        }
+      });
+
+      $(document).on('click', 'a[href^="#"]', function (event) {
+          event.preventDefault();
+
+          $('html, body').animate({
+              scrollTop: $($.attr(this, 'href')).offset().top
+          }, 500);
+      });
+
+    </script>
+
+  </body>
+</html>
